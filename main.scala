@@ -61,7 +61,7 @@ object Tree {
 object Main{
 
     def main(args: Array[String]): Unit = {
-        print("Please enter the operation (separated by spaces): ")
+        print("Please enter the operation: ")
         val expression = readLine()
 
         val expOnTree = Tree(expression.toList)
